@@ -43,7 +43,7 @@ networks:
   vlad_net:
     driver: macvlan
     driver_opts:
-      parent: eth0
+      parent: ens192.101
     ipam:
       driver: default
       config:
